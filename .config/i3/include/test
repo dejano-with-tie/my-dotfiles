@@ -1,0 +1,5 @@
+include /home/dejano/.config/i3/include/do-c
+test 123
+include do-a
+include do-b
+

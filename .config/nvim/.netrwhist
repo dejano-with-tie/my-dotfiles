@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/dejano'
+let g:netrw_dirhist_8='/home/dejano/.config/picom'
+let g:netrw_dirhist_7='/home/dejano/.config'
+let g:netrw_dirhist_6='/home/dejano/.config/i3'
+let g:netrw_dirhist_5='/home/dejano/Projects/directory-over-ip/src'
+let g:netrw_dirhist_4='/home/dejano/Projects/directory-over-ip'
+let g:netrw_dirhist_3='/home/dejano/Projects/directory-over-ip/src'
+let g:netrw_dirhist_2='/home/dejano/Projects/directory-over-ip'
+let g:netrw_dirhist_1='/home/dejano/Projects'
+let g:netrw_dirhist_0='/home/dejano/Projects/directory-over-ip/src'
