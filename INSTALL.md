@@ -1,6 +1,7 @@
-`sudo pacman -S xorg-server xorg-server-common xorg-xfd xorg-xinit`
+`sudo pacman -S xorg-server xorg-server-common xorg-xfd xorg-xinit pulseaudio pulseaudio-alsa pulseaudio`
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
-`sudo pacman -S base-devel neofetch htop ranger unzip git vim neovim redshift i3-gaps i3lock rofi kitty tmux zathura`
+`sudo pacman -S base-devel neofetch htop ranger unzip git vim neovim redshift i3-gaps i3lock rofi kitty tmux zathura
+udiskie`
 
 #### Yay
 ```
@@ -10,4 +11,4 @@ cd yay
 makepkg -si
 ```
 
-`yay -S polybar spotify google-chrome spicetify-cli qxkb`
+`yay -S polybar spotify google-chrome spicetify-cli nvm qxkb`
