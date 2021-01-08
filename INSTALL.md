@@ -33,7 +33,7 @@ vi, vim, sudo
 
 ## Post installation
 
-`sudo pacman -S xorg-server xorg-server-common xorg-xfd xorg-xinit pulseaudio pulseaudio-alsa pulseaudio`
+`sudo pacman -S xorg-server xorg-server-common xorg-xfd xorg-xinit xorg-xset xorg-xinput pulseaudio pulseaudio-alsa pulseaudio`
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 `sudo pacman -S base-devel neofetch htop ranger unzip git vim neovim redshift i3-gaps i3lock rofi kitty tmux zathura
 udiskie python-pip zsh zsh-completions maim xclip telegram-desktop gnu-free-fonts ttf-opensans ttf-jetbrains-mono`
