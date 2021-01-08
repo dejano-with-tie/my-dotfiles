@@ -65,4 +65,4 @@ cd yay
 makepkg -si
 ```
 
-`yay -S polybar spotify google-chrome spicetify-cli nvm siji-git qxkb slack-desktop`
+`yay -S polybar spotify google-chrome spicetify-cli nvm siji-git qxkb slack-desktop etcher`
