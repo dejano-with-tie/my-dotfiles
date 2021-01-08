@@ -1,3 +1,38 @@
+## Installing arch
+
+#### After chroot do the following:
+
+#### EFI
+
+mkdir /boot/efi
+mount /dev/sdb2 /boot/efi
+
+pacman -S grub efibootmgr dosfstools openssh os-prober mtools linux-headers
+
+grub-mkconfig -o /boot/grub/grub.cfg
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=grub_uefi --recheck
+
+cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo
+
+install microcode for cpu
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+
+----
+
+
+#### Networking
+https://wiki.archlinux.org/index.php/netctl
+install: netctl, dialog, wpa_supplicant, dhcpcd
+
+----
+#### Programs
+vi, vim, sudo 
+
+
+## Post installation
+
 `sudo pacman -S xorg-server xorg-server-common xorg-xfd xorg-xinit pulseaudio pulseaudio-alsa pulseaudio`
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 `sudo pacman -S base-devel neofetch htop ranger unzip git vim neovim redshift i3-gaps i3lock rofi kitty tmux zathura
@@ -30,4 +65,4 @@ cd yay
 makepkg -si
 ```
 
-`yay -S polybar spotify google-chrome spicetify-cli nvm qxkb slack-desktop`
+`yay -S polybar spotify google-chrome spicetify-cli nvm siji-git qxkb slack-desktop`
