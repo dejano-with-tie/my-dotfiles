@@ -4,6 +4,6 @@
 ▒█▄▄▀ ▒█▄▄▄█ ░▒█░░ ▒█░░░ ▄█▄ ▒█▄▄█ ▒█▄▄▄ ▒█▄▄▄█
 ```
 
-- Check [INSTALL.md](install) to manually install deps
-- Check [NOTES.md](notes) for maybe deps
-- Run `symlink.sh` to link configuration files
+- Check [install](INSTALL.md) to manually install deps
+- Check [notes](NOTES.md) for maybe deps
+- Manually ln/cp files
